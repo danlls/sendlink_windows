@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasteLink", "PasteLink\Past
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53403EDF-5D6B-4258-9615-B797AE01B03F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PasteLinkInstaller", "Setup1\Setup1.vdproj", "{97773AE3-D39A-452F-8F6D-86ADD295C2B6}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PasteLinkInstaller", "PasteLinkInstaller\PasteLinkInstaller.vdproj", "{05D9EB92-B1E2-4F51-93D1-F8E1DB640B38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +25,10 @@ Global
 		{79A68C84-9CE5-4910-9493-737B5FB35441}.Release|Any CPU.Build.0 = Release|Any CPU
 		{79A68C84-9CE5-4910-9493-737B5FB35441}.Release|x64.ActiveCfg = Release|x64
 		{79A68C84-9CE5-4910-9493-737B5FB35441}.Release|x64.Build.0 = Release|x64
-		{97773AE3-D39A-452F-8F6D-86ADD295C2B6}.Debug|Any CPU.ActiveCfg = Debug
-		{97773AE3-D39A-452F-8F6D-86ADD295C2B6}.Debug|x64.ActiveCfg = Debug
-		{97773AE3-D39A-452F-8F6D-86ADD295C2B6}.Debug|x64.Build.0 = Debug
-		{97773AE3-D39A-452F-8F6D-86ADD295C2B6}.Release|Any CPU.ActiveCfg = Release
-		{97773AE3-D39A-452F-8F6D-86ADD295C2B6}.Release|x64.ActiveCfg = Release
-		{97773AE3-D39A-452F-8F6D-86ADD295C2B6}.Release|x64.Build.0 = Release
+		{05D9EB92-B1E2-4F51-93D1-F8E1DB640B38}.Debug|Any CPU.ActiveCfg = Debug
+		{05D9EB92-B1E2-4F51-93D1-F8E1DB640B38}.Debug|x64.ActiveCfg = Debug
+		{05D9EB92-B1E2-4F51-93D1-F8E1DB640B38}.Release|Any CPU.ActiveCfg = Release
+		{05D9EB92-B1E2-4F51-93D1-F8E1DB640B38}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
