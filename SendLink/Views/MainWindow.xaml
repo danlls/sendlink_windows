@@ -1,9 +1,9 @@
-﻿<Window x:Class="PasteLink.MainWindow"
+﻿<Window x:Class="SendLink.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PasteLink"
+        xmlns:local="clr-namespace:SendLink"
         xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
         mc:Ignorable="d" 
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -14,7 +14,7 @@
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="PasteLink" Height="680" Width="680" MinWidth="680" MinHeight="680">
+        Title="SendLink" Height="680" Width="680" MinWidth="680" MinHeight="680">
 
     <Window.Resources>
         <local:DateFormatConverter x:Key="DateToStringFormatConverter"/>
@@ -44,7 +44,7 @@
                         <RowDefinition Height="20"/>
                     </Grid.RowDefinitions>
 
-                    <TextBlock Text="Scan the following QR code using PasteLink mobile"
+                    <TextBlock Text="Scan the following QR code using SendLink mobile"
                    Grid.Column="1" Grid.Row="1" Margin="0, 20, 0, 20" TextAlignment="Center" Style="{StaticResource MaterialDesignTitleTextBlock}"/>
                     <Image x:Name="QRimage" Grid.Column="1" Grid.Row="2" Width="400"/>
 

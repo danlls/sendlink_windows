@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PasteLink
+namespace SendLink
 {
     class SQLiteHelper : IDisposable
     {
         private SQLiteConnection sqlConnection;
-        private static string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\PasteLink";
+        private static string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\SendLink";
         private static string databaseFilePath = appDataPath + @"\pastelink.db";
 
         public SQLiteHelper()

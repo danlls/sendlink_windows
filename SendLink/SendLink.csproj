@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{79A68C84-9CE5-4910-9493-737B5FB35441}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PasteLink</RootNamespace>
-    <AssemblyName>PasteLink</AssemblyName>
+    <RootNamespace>SendLink</RootNamespace>
+    <AssemblyName>SendLink</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -36,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>web_hi_res_512_Uu6_icon.ico</ApplicationIcon>
+    <ApplicationIcon>sendlink_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -168,9 +168,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="web_hi_res_512_Uu6_icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="sendlink_icon.ico" />
     <Content Include="x64\SQLite.Interop.dll" />
     <Content Include="x86\SQLite.Interop.dll" />
   </ItemGroup>
