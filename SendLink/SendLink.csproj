@@ -169,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="sendlink_icon.ico" />
+    <None Include="sendlink_roundicon.png" />
     <Content Include="x64\SQLite.Interop.dll" />
     <Content Include="x86\SQLite.Interop.dll" />
   </ItemGroup>

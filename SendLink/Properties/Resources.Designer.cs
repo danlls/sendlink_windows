@@ -59,5 +59,15 @@ namespace SendLink.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sendlink_roundicon {
+            get {
+                object obj = ResourceManager.GetObject("sendlink_roundicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

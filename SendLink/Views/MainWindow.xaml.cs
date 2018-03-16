@@ -75,7 +75,7 @@ namespace SendLink
             QRCodeGenerator qrGenerator = new QRCodeGenerator();
             QRCodeData qrCodeData = qrGenerator.CreateQrCode("SendLink://" + GetLocalIPAddress(), QRCodeGenerator.ECCLevel.Q);
             QRCode qrCode = new QRCode(qrCodeData);
-            Bitmap qrCodeImage = qrCode.GetGraphic(20);
+            Bitmap qrCodeImage = qrCode.GetGraphic(20, System.Drawing.Color.Black, System.Drawing.Color.White, SendLink.Properties.Resources.sendlink_roundicon);
             ImageSource imgsrc = BitmapToImageSource(qrCodeImage);
             QRimage.Source = imgsrc;
         }
@@ -94,6 +94,7 @@ namespace SendLink
                         {
                             if (ip.Address.AddressFamily == AddressFamily.InterNetwork)
                             {
+                                Console.WriteLine(ip.Address.ToString());
                                 return ip.Address.ToString();
                             }
                         }
