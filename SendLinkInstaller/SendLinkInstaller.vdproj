@@ -242,6 +242,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -266,6 +274,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -807,7 +823,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SendLink"
         "ProductCode" = "8:{1C492A3A-A287-4B71-B462-7CAFE2B68B8A}"
-        "PackageCode" = "8:{5FCEC2BD-B0E5-4F87-8983-AA68CAFD8485}"
+        "PackageCode" = "8:{0FE76BB1-EFFB-4258-A12B-F61B7904A4DD}"
         "UpgradeCode" = "8:{B0C8ACC2-F220-4D7E-95E2-83EB3ADDA6E5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1356,7 +1372,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3B2FACE7ACC04F728514DBD6FBA7EA0F"
             {
-            "SourcePath" = "8:..\\SendLink\\obj\\Debug\\SendLink.exe"
+            "SourcePath" = "8:..\\SendLink\\obj\\x86\\Release\\SendLink.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_061D653924A14BD6968FE4F2FC7D35BF"
